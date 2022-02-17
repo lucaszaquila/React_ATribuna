@@ -1,0 +1,21 @@
+.button {
+    height: 100%;
+    padding: .2em .8em;
+    background-color: var(--grey);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+
+.sign {
+    background-color: var(--red);
+}
+
+.club {
+    background-color: var(--purple)
+}
+
+.login {
+    background-color: var(--lgrey);
+    color: var(--black);
+}
