@@ -1,6 +1,7 @@
 .navbar {
     position: sticky;
     top: 0;
+    background-color: var(--white);
 }
 
 .navbar ul {
@@ -28,4 +29,5 @@
 
 .logo img{
     width: 100%;
+    margin-bottom: 5px;
 }

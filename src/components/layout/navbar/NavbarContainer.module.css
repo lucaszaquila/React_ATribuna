@@ -20,3 +20,7 @@
 .bot {
     justify-content: center;
 }
+
+.bot a {
+    color: var(--black);
+}

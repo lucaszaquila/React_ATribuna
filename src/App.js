@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Container>
+      <Container customClass="center">
         <Routes>
             <Route path="/" element={<Home/>}/>
         </Routes>

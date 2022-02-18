@@ -11,11 +11,11 @@ import logo from '../../../img/logoat.svg'
 const Navbar = () => {
     return (
         <nav className={styles.navbar}>
-            <NavbarContainer customClass="top">
+            <NavbarContainer customClass="top" id="topzera">
                 <SocialLinks />
                 <div className={styles.user_buttons}>
                     <FaSearch/>
-                    <Button text="Assine" customClass="sign" id="a"/>
+                    <Button text="Assine" customClass="sign"/>
                     <Button text="Clube" customClass="club" />
                     <Button text="Entrar" customClass="login" />
                 </div>
