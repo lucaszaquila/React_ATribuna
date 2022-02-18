@@ -1,0 +1,33 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 0 .3em;
+}
+
+.user_buttons {
+    height: 100%;
+}
+
+.user_buttons svg {
+    margin: auto .5em;
+    cursor: pointer;
+}
+
+.logo {
+    max-width: 350px;
+    text-align: center;
+}
+
+.logo img{
+    width: 100%;
+    margin-bottom: 5px;
+}
