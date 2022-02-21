@@ -1,0 +1,10 @@
+.simple_row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
+}
+
+.simple_row > * {
+    width: 24%;
+}
