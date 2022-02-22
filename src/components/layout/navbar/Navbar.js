@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { FaUserAlt } from 'react-icons/fa'
 import NavbarContainer from './NavbarContainer.js'
 import SocialLinks from '../SocialLinks.js'
 import UserButtons from './UserButtons.js'
@@ -38,7 +39,11 @@ const Navbar = () => {
                     {/* USER INFO */}
                     <NavbarContainer customClass={['top']}>
                         <SocialLinks />
-                        <UserButtons />
+                        <UserButtons 
+                            text1="Assine"
+                            text2="Clube"
+                            text3="Entrar"
+                        />
                     </NavbarContainer>
 
                     {/* HEADER */}
@@ -100,7 +105,12 @@ const Navbar = () => {
                     <div className={styles.logo}>
                         <img src={logo} alt="Logo A Tribuna"></img>
                     </div>
-                    <UserButtons customClass="scrolled"/>
+                    <UserButtons 
+                        text1="A"
+                        text2="C"
+                        text3={<FaUserAlt />}
+                        customClass="scrolled"
+                    />
                 </NavbarContainer>
                 )
             }

@@ -6,3 +6,23 @@
     margin: auto .5em;
     cursor: pointer;
 }
+
+.scrolled{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+.scrolled button{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    min-width: 0;
+    margin: 0 .5em;
+    padding: 0;
+    cursor: pointer;
+}
+
+.scrolled svg{
+    color: var(--dgrey);
+}
