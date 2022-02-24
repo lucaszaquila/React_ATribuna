@@ -100,8 +100,13 @@ const Navbar = () => {
                 </>                     
             ) : (
                 // SCROLLED NAVBAR
-                <NavbarContainer customClass={['scrolled']}>
-                    <GiHamburgerMenu />
+                <NavbarContainer customClass={['scrolled','drop']}>
+                    <GiHamburgerMenu 
+                        style={{
+                            fontSize: "25px",
+                            justifySelf: "start"
+                        }}
+                    />
                     <div className={styles.logo}>
                         <img src={logo} alt="Logo A Tribuna"></img>
                     </div>

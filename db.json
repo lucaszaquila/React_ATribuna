@@ -1,0 +1,25 @@
+{
+    "articles":[
+        {
+            "title": "Sr Brigadeiro surpreende banhistas pelas praias do Litoral de São Paulo; VÍDEO",
+            "subtitle": "Vídeo da rotina de trabalho de Marlon Barbosa soma mais de 1.8 milhão de exibições",
+            "image": "https://www.atribuna.com.br/storage/Cidades/Guaruj%C3%A1/censurado4868767314752.webp",
+            "call": "De camisa social e gravata",
+            "path": "https://www.atribuna.com.br/cidades/guaruja/de-camisa-social-e-gravata-sr-brigadeiro-surpreende-banhistas-pelas-praias-do-litoral-de-sp-video"
+        },
+        {
+            "title": "Pescadores são supreendidos por tubarão em Praia Grande: 'Parecia cena de filme'",
+            "subtitle": "Animal foi visto nesta quarta-feira (23), na praia do Ocian",
+            "image": "https://www.atribuna.com.br/storage/Cidades/Praia_Grande/img3107661511517.webp",
+            "call": "Vídeo",
+            "path": "https://www.atribuna.com.br/cidades/praiagrande/pescadores-sao-surpreendidos-por-tubarao-em-praia-grande-parecia-cena-de-filme-video"
+        },
+        {
+            "title": "Quadrilha explode 5º DP de Santos em tentativa de resgate e suspeito de matar PM",
+            "subtitle": "Explosão ocorreu no início da manha desta quinta-feira (24)",
+            "image": "https://www.atribuna.com.br/storage/Noticias/Pol%C3%ADcia/censurado3374653710738.webp",
+            "call": "Terror no bom retiro",
+            "path": "https://www.atribuna.com.br/noticias/policia/quadrilha-explode-5-dp-de-santos-em-tentativa-de-resgate-de-suspeito-de-matar-pm"
+        }
+    ]
+}

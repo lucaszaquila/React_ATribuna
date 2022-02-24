@@ -1,4 +1,4 @@
-import ColumnBlock from './blocks/ColumnBlock'
+import ColumnBlock from '../blocks/ColumnBlock'
 import barco from '../../../img/barco.webp'
 import styles from './SimpleRow.module.css'
 

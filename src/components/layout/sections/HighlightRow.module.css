@@ -1,0 +1,6 @@
+.highlights {
+    display: grid;
+    grid: auto-flow dense / 3fr 2fr;
+    max-height: 500px;
+    margin-bottom: 1.5em;
+}

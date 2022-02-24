@@ -1,5 +1,5 @@
 import styles from './Ad.module.css'
-import ad from '../../../../img/ad.jpeg';
+import ad from '../../../img/ad.jpeg';
 
 const Ad = () => {
     return (
