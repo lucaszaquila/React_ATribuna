@@ -46,15 +46,18 @@ const HighlightSlide = () => {
             className={styles.slider}
             key={index}
           >
-            {index === current && (
-              <>
-                <img src={slide.image} alt="Imagem" />
-                <div className={styles.description}>
-                  <span>{slide.call}</span>
-                  <p>{slide.title}</p>
-                </div>
-              </>
-            )}
+            <div>
+              {index === current && (
+                <>
+                  <img src={slide.image} alt="Imagem" />
+                  <div className={styles.description}>
+                    <span>{slide.call}</span>
+                    <p>{slide.title}</p>
+                  </div>
+
+                </>
+              )}
+            </div>
           </a>
         )
       })}
