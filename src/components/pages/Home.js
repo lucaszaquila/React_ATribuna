@@ -30,9 +30,9 @@ const Home = () => {
             <SimpleRow articles={articles} />
             <Ad />
             <TitleSeeMore title="Porto e Mar" />
-            <SimpleRow articles={articles} hide={true}/>
+            <SimpleRow articles={articles} hide={true} />
             <TitleSeeMore title="Brasil e Mundo" />
-            <SimpleRow articles={articles} hide={true}/>
+            <SimpleRow articles={articles} hide={true} />
             <Ad />
         </>
     )
