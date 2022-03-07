@@ -1,0 +1,17 @@
+.five_blocks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 50%);
+    margin-bottom: 1.5em;
+    gap: 1em;
+}
+
+.highlight {
+    grid-area: 1 / 3 / 3 / 5;
+    background-color: pink;
+}
+
+.highlight a {
+    width: 100%;
+    height: 100%;
+}

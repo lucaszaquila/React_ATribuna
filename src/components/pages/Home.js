@@ -3,7 +3,8 @@ import {useState, useEffect} from 'react'
 import SimpleRow from '../layout/sections/SimpleRow';
 import HighlightRow from '../layout/sections/HighlightRow';
 import Ad from '../layout/blocks/Ad';
-import TitleSeeMore from '../layout/TitleSeeMore.js';
+import TitleSeeMore from '../layout/TitleSeeMore';
+import FiveBlocks from '../layout/sections/FiveBlocks'
 
 const Home = () => {
     const [articles, setArticles] = useState([])
@@ -34,6 +35,7 @@ const Home = () => {
             <TitleSeeMore title="Brasil e Mundo" />
             <SimpleRow articles={articles} hide={true} />
             <Ad />
+            <FiveBlocks articles={articles} />
         </>
     )
 }
