@@ -21,7 +21,7 @@ const HighlightSlide = () => {
       if(!Array.isArray(data) || data.lenght <= 0) {
         return null
       }
-      setArticles(data)
+      setArticles(data.slice(0,3))
     })
     .catch((err) => console.log(err))
       

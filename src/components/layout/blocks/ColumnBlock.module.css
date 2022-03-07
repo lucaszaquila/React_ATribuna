@@ -23,3 +23,16 @@
 .column_block h2 {
     font-size: 1.1em;
 }
+
+.title_overlay {
+    position: relative;
+}
+
+.title_overlay h2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    background-color: var(--black);
+    color: var(--white);
+}

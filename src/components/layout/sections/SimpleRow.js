@@ -1,38 +1,27 @@
+import { useEffect, useState } from 'react'
+
 import ColumnBlock from '../blocks/ColumnBlock'
 import barco from '../../../img/barco.webp'
 import styles from './SimpleRow.module.css'
 
-const SimpleRow = () => {
+const SimpleRow = ({articles=[], hide=false}) => {
     return(
         <section className={styles.simple_row}>
-            <ColumnBlock 
-                img={barco} 
-                editoria="Navios" 
-                titulo="Iniciativa financia em até R$ 2 milhões diversos projetos na Baixada Santista"
-                subtitulo="José Ricardo Ribeiro criou um trajeto de ida e volta de Santos a Cubatão"
-                url="www.google.com"
-            />
-            <ColumnBlock 
-                img={barco} 
-                editoria="Navios" 
-                titulo="Iniciativa financia em até R$ 2 milhões diversos projetos na Baixada Santista"
-                subtitulo="José Ricardo Ribeiro criou um trajeto de ida e volta de Santos a Cubatão"
-                url="www.google.com"
-            />
-            <ColumnBlock 
-                img={barco} 
-                editoria="Navios" 
-                titulo="Iniciativa financia em até R$ 2 milhões diversos projetos na Baixada Santista"
-                subtitulo="José Ricardo Ribeiro criou um trajeto de ida e volta de Santos a Cubatão"
-                url="www.google.com"
-            />
-            <ColumnBlock 
-                img={barco} 
-                editoria="Navios" 
-                titulo="Iniciativa financia em até R$ 2 milhões diversos projetos na Baixada Santista"
-                subtitulo="José Ricardo Ribeiro criou um trajeto de ida e volta de Santos a Cubatão"
-                url="www.google.com"
-            />
+            {hide? articles?.map(article=>
+                <ColumnBlock
+                    img={article.image}
+                    titulo={article.title}
+                    url={article.url}
+                />
+            ) :  articles?.map(article=>
+                <ColumnBlock
+                    img={article.image}
+                    editoria={article?.call}
+                    titulo={article.title}
+                    subtitulo={article?.subtitle}
+                    url={article.url}
+                />
+            )}
         </section>
     )
 }
