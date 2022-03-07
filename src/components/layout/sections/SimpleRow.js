@@ -1,7 +1,4 @@
-import { useEffect, useState } from 'react'
-
 import ColumnBlock from '../blocks/ColumnBlock'
-import barco from '../../../img/barco.webp'
 import styles from './SimpleRow.module.css'
 
 const SimpleRow = ({articles=[], hide=false}) => {
