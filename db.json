@@ -27,6 +27,13 @@
             "image": "https://www.atribuna.com.br/storage/Noticias/Mundo/img1214811611029.webp",
             "call": "Esperança",
             "path": "https://www.atribuna.com.br/noticias/mundo/russia-anuncia-novo-cessar-fogo-e-abertura-de-corredores-humanitarios"
+        },        
+        {
+            "title": "Jogo entre Santos e Ferroviária é cancelado por falta de energia",
+            "subtitle": "Partida estava prevista para 18h30, mas chuva de granizo e quedas de luz impediram a disputa. Jogo será no dia 16",
+            "image": "https://www.atribuna.com.br/storage/Esportes/Santos_FC/img1806850912934.webp",
+            "call": "Falta de luz",
+            "path": "https://www.atribuna.com.br/esportes/santosfc/jogo-entre-santos-e-ferroviaria-e-cancelado-por-falta-de-energia-no-estadio-em-araraquara"
         }
     ]
 }

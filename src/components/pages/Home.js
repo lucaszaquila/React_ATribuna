@@ -35,7 +35,11 @@ const Home = () => {
             <TitleSeeMore title="Brasil e Mundo" />
             <SimpleRow articles={articles} hide={true} />
             <Ad />
+            <TitleSeeMore title="Santos FC" />
             <FiveBlocks articles={articles} />
+            <Ad />
+            <TitleSeeMore title="Variedades" />
+            <FiveBlocks articles={articles} invert={true} />
         </>
     )
 }
