@@ -8,6 +8,7 @@ import FiveBlocks from '../layout/sections/FiveBlocks'
 
 const Home = () => {
     const [articles, setArticles] = useState([])
+    const [dataBase, setDataBase] = useState([])
 
     useEffect(() => {
         fetch(`http://localhost:5000/articles/`, {
@@ -23,6 +24,22 @@ const Home = () => {
     .catch((err) => console.log(err))
         
     }, [])
+
+    useEffect(() => {
+        fetch(`http://localhost/src/api/index`, {
+        headers: {
+            'Content-Type' : 'application/json'
+        }
+    })
+    .then((resp) => resp.json())
+    .then((data) => {
+        setDataBase(data)
+        console.log(dataBase)
+    })
+    .catch((err) => console.log(err))
+        
+    }, [])
+
     return(
         <>
             <Ad />
